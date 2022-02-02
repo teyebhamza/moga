@@ -8,8 +8,8 @@
     margin: 10px;
 }
 .mogalogo{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
 }
 .searchBar {
     background-color: rgb(200, 245, 230);
@@ -63,6 +63,11 @@
     border-radius: 10px;
     padding: 2px;
 }
-.loginButton{
-    
+.loginBtn{
+    height: 30px;
+    width: 75px;
+    margin-top: 9px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    font-size: 16px;
 }

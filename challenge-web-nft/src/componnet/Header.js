@@ -24,7 +24,7 @@ import themeSwitch from '../assets/pic/themeswitch.png'
         </div>
     </div>
     <div>
-        <button>Get in</button>
+        <button className='loginBtn'>Get in</button>
     </div>
 
     </div>

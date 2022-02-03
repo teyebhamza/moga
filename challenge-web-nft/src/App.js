@@ -6,17 +6,17 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 function App() {
-    const[mogaListData, setMogaListData] = useState([])
+  const [mogaListData, setMogaListData] = useState([])
 
-    useEffect(()  => {
-      const getMyNfts = async () => {
-        const openseaData = await axios.get(
-        'https://testnets-api.opensea.io/assets?asset_contract_adress=0xdaF08C5F7Ed1E998D8205B86109A239Abf8E0633&order_direction=asc'
-        )
-        console.log(openseaData.data.assets)
-      }
-      return getMyNfts()
-    }, [])
+  useEffect(()  => {
+    const getMyNfts = async () => {
+      const openseaData = await axios.get(
+      'https://thirdweb.com/rinkeby/0x9501bbAebb2f0aF4233f2Fe38EA0ad7140b09461/nft-collection/0x730423Ecf23A7a2C03DE96830df14BD7a1F691cb'
+      )
+      console.log(openseaData.data.assets)
+    }
+    return getMyNfts()
+  }, []);
 
   return (
   <div className='app'>

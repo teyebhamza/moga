@@ -4,6 +4,7 @@ import Header from './Componnet/Header'
 import CollectionCard from './Componnet/CollectionCard'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
+import Nftlist from './componnet/Nftlist'
 
 function App() {
   const [mogaListData, setMogaListData] = useState([])
@@ -24,6 +25,8 @@ function App() {
   <div className='app'>
   <Header />
   <CollectionCard  id={0} name={'Bebars Game'} traits={[{'value': 2}]} image='https://lh3.googleusercontent.com/RF8LL60iCIM3QguKHVn4vaFzeG2_hn-NNigXbxQ78QXbgJCnR8PS-nDCD7PS73AEL3miz2adaSYxHF0f8GhvRzhBdFIkyZF9gnzL=w600'/>
+  
+  <Nftlist mogaListData={mogaListData} />
   </div>
   )
 }

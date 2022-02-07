@@ -1,14 +1,17 @@
 import React from 'react';
 import CollectionCard from './CollectionCard';
+import './Mogalist.css'
+;
+
 
 const Mogalist = ({mogaListData}) => {
   return (
   <div className='mogaList'>
-      {mogaListData.map(moga  =>(  
+      {mogaListData.map(moga => (  
          <div>
            <CollectionCard 
-           Key = {moga.token_id}
-           id={moga.token_id}
+           Key={moga.token_id}
+           id={moga.tokenn_id}
            name={moga.name}
            traits={moga.traits}
            image={moga.image_original_url}
@@ -17,6 +20,6 @@ const Mogalist = ({mogaListData}) => {
       ))}
   </div>
   )
-};
+}
 
 export default Mogalist;

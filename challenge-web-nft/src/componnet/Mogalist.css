@@ -1,0 +1,11 @@
+.mogaList{
+    cursor: pointer;
+    display: flex;
+    overflow: scroll;
+    margin-top: 20px;
+    padding-bottom: 0px;
+}
+
+.mogaList::-webkit-scrollbar {
+    display: none;
+}

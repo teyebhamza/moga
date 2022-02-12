@@ -3,9 +3,9 @@
     display: flex;
     overflow: scroll;
     margin-top: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 1px solid rgb(245, 234, 234);
 }
 
 .mogaList::-webkit-scrollbar {
-    display: none;
+  display: none;
 }

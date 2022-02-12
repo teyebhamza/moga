@@ -28,7 +28,7 @@ function App() {
   <CollectionCard 
    id={0} 
    name={'Beb Gaming'} 
-   traits={[{'value': 2}]} 
+   traits={[{ value: 2 }]} 
    image='https://lh3.googleusercontent.com/K3OCl5WvuygA9QBSuk5MmznNneXh4cEl3aqk4NFTOr6siu1Ed3WBdxMUt7K5e7mC_xbv7UQVvJ_MgtgZPGXBm7Ce8uhqEi0c5-zNok0=w600' 
    />
   <Mogalist mogaListData={mogaListData} />
